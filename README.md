@@ -8,14 +8,14 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 3. Appuyer sur le bouton __commit__.
 4. Ensuite appuyer __push__.
 
-!(img/3points+pull.png)
-!(img/3points+push.png)
-!(img/ajouterNom.png)
-!(img/commit.png)
+![Etape1](img/3points+pull.png)
+![Etape2](img/3points+push.png)
+![Etape3](img/ajouterNom.png)
+![Etape4](img/commit.png)
 
 ## Contributeurs
 
-- [Cédric](https://github.com/Leptitroy/2434411). - Auteur principal
+- [Cédric](https://github.com/Leptitroy/2434411) - Auteur principal
 
 ## Licence
 
