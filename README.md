@@ -15,7 +15,7 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 
 ## Contributeurs
 
-- ([Cédric](https://github.com/Leptitroy/2434411)"). - Auteur principal
+- [Cédric](https://github.com/Leptitroy/2434411). - Auteur principal
 
 ## Licence
 
