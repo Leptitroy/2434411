@@ -1,7 +1,7 @@
 # Travail Pratique 2
 Ce dépôt contient le code d’un projet web fait dans le cours de Perspective Professionnelles
 
-**Faire un _commit_ et un _push_ dans _Visual Studio Code_**
+## Faire un _commit_ et un _push_ dans _Visual Studio Code_
 
 Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 1. Appuyer sur les 3 petits points et ensuite sur pull.
