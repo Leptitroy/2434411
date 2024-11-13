@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Rocket League Fan page</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div class="FlexBoxEntete">
+          <a href="index.html">
+            <img src="img/logorl.jpg" alt="logoRocketLeague" />
+          </a>
+          <h1>Rocket League Fan Page</h1>
+        </div>
+      </header>
+      <nav>
+        <div class="FlexBoxMenu">
+          <li><a class="COrange" href="index.html">Acceuil</a></li>
+          <li>
+            <a class="COrange" href="galerie-images.html">Galerie De Photos</a>
+          </li>
+          <li><a class="COrange" href="commentaires.html">Commentaires</a></li>
+          <a class="alignD" href="connexion.html">Se connecter</a>
+        </div>
+      </nav>
+      <main>
+        <section>
+          <fieldset>
+            <form
+              action="mailto:2434411@csfoy.qc.ca" method="post" enctype="text/plain">
+              <div>
+                <label for="txtPNom" class="correctionMarge">Prénom :</label>
+                <input type="text" name="txtPNom" id="txtPNom" />
+              </div>
+              <div>
+                <label for="txtNom" class="correctionMarge">Nom :</label>
+                <input type="text" name="txtNom" id="txtNom" />
+              </div>
+              <div>
+                <label for="txtTelephone" class="correctionMarge">Téléphone :</label>
+                <input type="tel" name="txtTelephone" id="txtTelephone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+              </div>
+              <div>
+                <label for="courriel" class="correctionMarge">Courriel :</label>
+                <input type="email" name="courriel" id="courriel" />
+              </div>
+              <div>
+                <label for="Province" class="correctionMarge">Province :</label>
+                <select name="Province" id="Province" size="1">
+                  <option value="Alb.">Alberta</option>
+                  <option value="C.-B.">Colombie-Britannique</option>
+                  <option value="Î.-P.-E.">Île-du-Prince-Édouard</option>
+                  <option value="Man.">Manitoba</option>
+                  <option value="N.-B.">Nouveau-Brunswick</option>
+                  <option value="N.-E.">Nouvelle-Écosse</option>
+                  <option value="Ont.">Ontario</option>
+                  <option selected="yes" value="Que.">Québec</option>
+                  <option value="Sask.">Saskatchewan</option>
+                  <option value="T.-N.-L.">Terre-Neuve-et-Labrador</option>
+                </select>
+              </div>
+              <div>
+                <label for="dateNaissance" class="correctionMarge"
+                  >Date De Naissance :</label
+                >
+                <input type="date" name="dateNaissance" id="dateNaissance" />
+              </div>
+              <div>
+                <label for="commentaires" class="correctionMarge"
+                  >Commentaires :</label>
+                <textarea name="commentaires" id="commentaires" rows="7"></textarea>
+              </div>
+              <div>
+                <label for="action" class="correctionMarge">Action</label>
+                <input type="checkbox" name="action" id="action" />
+              </div>
+              <div>
+                <label for="comedie" class="correctionMarge">Comédie</label>
+                <input type="checkbox" name="comedie" id="comedie" />
+              </div>
+              <div>
+                <label for="drame" class="correctionMarge">Drame</label>
+                <input type="checkbox" name="drame" id="drame" />
+              </div>
+              <div>
+                <label for="horreur" class="correctionMarge">Horreur</label>
+                <input type="checkbox" name="horreur" id="horreur" />
+              </div>
+              <div>
+                <label for="suspense" class="correctionMarge">Suspense</label>
+                <input type="checkbox" name="suspense" id="suspense" />
+              </div>
+              <div>
+                <p>Note a notre site web</p>
+                <label for="excellent" class="correctionMarge">Excellent</label>
+                <input type="radio" name="note" id="excellent" />
+              </div>
+              <div>
+                <label for="tresBien" class="correctionMarge">Très Bien</label>
+                <input type="radio" name="note" id="tresBien" />
+              </div>
+              <div>
+                <label for="moyen" class="correctionMarge">Moyen</label>
+                <input type="radio" name="note" id="moyen" />
+              </div>
+              <div>
+                <label for="bof" class="correctionMarge">Bof</label>
+                <input type="radio" name="note" id="bof" />
+              </div>
+              <div class="correctionMarge">
+                <input type="submit" value="Envoyer">
+            </div>
+            <div class="correctionMarge">
+                <input type="reset" value="Réinitialiser"> 
+            </div>
+            </form>
+          </fieldset>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

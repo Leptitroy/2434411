@@ -1,0 +1,120 @@
+body{
+width: 1000px;
+margin: auto;
+background-image:url(../img/background.jpg);
+
+
+}
+
+.page{
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(0, 149, 255);
+}
+h1{
+    width: 750px;
+    font-size: 40px;
+    
+}
+.FlexBoxEntete{
+display: flex;
+border: 2px solid  rgb(0, 0, 0);
+text-align: center;
+align-items: center;
+flex-wrap: wrap;
+
+
+
+
+
+}
+.FlexBoxMenu{
+    display: flex;
+    border: 2px solid  rgb(0, 0, 0);
+    justify-content: space-around ;
+    min-height: 20px;
+
+    
+    
+}
+
+.COrange,li{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.COrange:hover{
+color: rgb(255, 81, 0);
+
+}
+.alignD{
+    padding-left: 50px;
+    border-left: 2px solid rgb(0, 0, 0);
+    text-decoration: underline;
+    color: rgb(0, 55, 255);
+    
+    }
+.alignD:hover{
+    color: rgb(1, 9, 162);
+}
+.MiseEnForme{
+    display:flex;
+    margin-left: 20px;
+    text-align: left;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    
+}
+h2{
+    margin-left: 20px;
+}
+.correctionMarge{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+form{
+    text-align: center;
+}
+.centerConstruction{
+    margin-left: 20%;
+}
+.alignPhotos{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.alignPicture{
+    float: left;
+}
+.left{
+    
+    float: right;
+    border-left: 2px solid rgb(0, 0, 0);
+    border-top:2px solid rgb(0, 0, 0) ;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+.ajustementFoot{
+    text-decoration: underline;
+    color: rgb(1, 9, 162);
+   
+} 
+.gridFoot{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+   
+}
+.pdp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+    
+}
+
+
+
+
