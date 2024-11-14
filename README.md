@@ -9,13 +9,13 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 3. Appuyer sur le bouton _commit_.
 4. Ensuite appuyer _push_.
 
-![Etape1](/img.docs/3points+pull.png)
+![Etape1](img.docs/3points+pull.png)
 
-![Etape2](/img.docs/3points+push.png)
+![Etape2](img.docs/3points+push.png)
 
-![Etape3](/img.docs/ajouterNom.png)
+![Etape3](img.docs/ajouterNom.png)
 
-![Etape4](/img.docs/commit.png)
+![Etape4](img.docs/commit.png)
 
 ## Contributeurs
 
