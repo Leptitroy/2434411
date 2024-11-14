@@ -9,13 +9,13 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 3. Appuyer sur le bouton _commit_.
 4. Ensuite appuyer _push_.
 
-2434411/![Etape1](img.docs/3points+pull.png)
+![Etape1](TP1-pour-perspec/img.docs/3points+pull.png)
 
-2434411![Etape2](img.docs/3points+push.png)
+![Etape2](TP1-pour-perspec/img.docs/3points+push.png)
 
-2434411![Etape3](img.docs/ajouterNom.png)
+![Etape3](TP1-pour-perspec/img.docs/ajouterNom.png)
 
-2434411![Etape4](img.docs/commit.png)
+![Etape4](TP1-pour-perspec/img.docs/commit.png)
 
 ## Contributeurs
 
